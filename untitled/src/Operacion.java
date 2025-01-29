@@ -1,45 +1,38 @@
 public class Operacion {
 
-    int suma;
-    int resta;
-    int multiplicacion;
-    double division;
 
-
-
-
-    public void sumar(int num1, int num2) {
-        suma = num1 + num2;
+    public int sumar(int num1, int num2) {
+        int suma = num1 + num2;
+        return suma;
 
 
     }
 
-    public void restar(int num1, int num2) {
+    public int restar(int num1, int num2) {
 
-        resta = num1 - num2;
-
-    }
-
-    public void multiplicar(int num1, int num2) {
-
-        multiplicacion = num1 * num2;
+        int resta = num1 - num2;
+        return resta;
 
     }
 
-    public void dividir(double num1, double num2) {
+    public int multiplicar(int num1, int num2) {
 
-        division = num1 / num2;
+        int multiplicacion = num1 * num2;
+        return multiplicacion;
 
     }
 
-    public void mostrarResultados() {
-        System.out.println("La suma es : " + suma);
-        System.out.println("La resta es : " + resta);
-        System.out.println("La multiplicacion es : " + multiplicacion);
-        System.out.println("La division es : " + division);
+    public double dividir(double num1, double num2) {
+
+        double division = num1 / num2;
+        return division;
 
     }
 
 
-}
+
+    }
+
+
+
 
